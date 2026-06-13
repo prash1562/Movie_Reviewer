@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Movie Reviewer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header Section: Contains branding and responsive navigation -->
+    <header>
+        <h1>Movie Reviewer<span>.</span></h1>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="list" id="nav-list">
+            <li id="active"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </header>
+
+    <!-- Search Section: Input field and button for fetching movie data -->
+    <div class="searchBar">
+        <input id="city" type="text" placeholder="Enter movie name..." />
+        <button id="trigger">Search</button>
+    </div>
+
+    <!-- Display Section: Shows movie details after a successful search -->
+    <div class="display">
+        <h1 id="cityName" style="margin-bottom: 10px;">Movie Title</h1>
+        <div class="info">
+            <p id="releaseDate">Release Date: --/--/----</p>
+            <p id="rating">Rating: --/10</p>
+            <p id="director">Director: --</p>
+            <p id="plot">Plot: --</p>
+            <p id="cast">Cast: --</p>
+            <p id="genre">Genre: --</p>
+            <p id="runtime">Runtime: --</p>
+            <p id="language">Language: --</p>
+            <p id="country">Country: --</p>
+            <p id="awards">Awards: --</p>
+            <p id="boxOffice">Box Office: --</p>
+            <p id="metascore">Metascore: --</p>
+            <p id="imdbID">IMDb ID: --</p>
+            <p id="type">Type: --</p>
+            <p id="year">Year: --</p>
+            <p id="rated">Rated: --</p>
+        </div>
+    </div>
+
+    <!-- Poster Section: Displays the movie poster image -->
+    <img id="poster" src="https://upload.wikimedia.org/wikipedia/commons/6/65/No-Image-Placeholder.svg" alt="Movie Poster" />
+
+    <!-- External Scripts: Application logic and API integration -->
+    <script src="script.js"></script>
+</body>
+
+</html>

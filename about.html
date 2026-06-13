@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>About - Movie Reviewer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header Section: Contains branding and responsive navigation -->
+    <header>
+        <h1>Movie Reviwer<span>.</span></h1>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="list" id="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li id="active"><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </header>
+
+    <!-- Main Content Section: Displays About Us information -->
+    <div class="display">
+        <h1 style="margin-bottom: 20px;">About Us</h1>
+        <div class="info">
+            <p>Welcome to Movie Reviewer! This is a simple application designed to help you find detailed information about your favorite movies.</p>
+            <p style="margin-top: 10px;">We use the OMDB API to fetch real-time data including ratings, plot summaries, and cast members for thousands of films.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
