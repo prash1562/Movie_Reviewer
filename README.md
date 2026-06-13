@@ -16,5 +16,4 @@ HTML, CSS, Vanilla JavaScript, OMDB API
 2. Replace the `API_KEY` value in `script.js`
 3. Open `index.html` in your browser
 
-## Live Demo
-[View Live](https://YOUR_USERNAME.github.io/movie-reviewer)
+
